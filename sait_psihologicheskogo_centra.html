@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Центр психологической помощи «Гармония»</title>
+<style>
+*{box-sizing:border-box} body{margin:0;font-family:Arial,sans-serif;background:#f4f8f7;color:#243b3a}
+header{background:#6c9c91;color:white;padding:22px 8%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.logo{font-size:28px;font-weight:bold} nav a{color:white;text-decoration:none;margin:8px 12px;font-weight:bold}
+main{max-width:1100px;margin:auto;padding:35px 20px}.hero{background:#dcece7;padding:45px;border-radius:20px;text-align:center}
+h1{font-size:38px;margin:10px 0} h2{color:#47786e;margin-top:35px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.card{background:white;padding:22px;border-radius:16px;box-shadow:0 3px 12px #0001}
+.avatar{width:110px;height:110px;border-radius:50%;background:#b8d7ce;display:flex;align-items:center;justify-content:center;font-size:48px;margin:auto}
+.btn{display:inline-block;background:#47786e;color:white;padding:12px 20px;border-radius:25px;text-decoration:none;margin-top:15px}
+.chart{display:flex;align-items:flex-end;gap:30px;height:260px;padding:20px;background:white;border-radius:16px}
+.bar-wrap{flex:1;text-align:center}.bar{background:#79aa9e;border-radius:8px 8px 0 0;min-height:10px}.bar-label{margin-top:8px}
+.contact{background:white;border-radius:16px;padding:25px;line-height:1.8}
+footer{background:#365d56;color:white;text-align:center;padding:25px;margin-top:40px}
+.small{color:#617c77}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">🌿 «Гармония»</div>
+  <nav>
+    <a href="#home">Главная</a>
+    <a href="#specialists">Специалисты</a>
+    <a href="#statistics">Статистика</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+</header>
+
+<main id="home">
+<section class="hero">
+  <h1>Центр психологической помощи «Гармония»</h1>
+  <p>Пространство поддержки, развития и эмоционального благополучия.</p>
+  <p>Мы помогаем справляться со стрессом, тревогой, семейными трудностями,
+  кризисными ситуациями и вопросами личностного развития.</p>
+  <a class="btn" href="#specialists">Познакомиться со специалистами</a>
+</section>
+
+<h2>Направления работы</h2>
+<div class="cards">
+  <div class="card"><h3>Индивидуальное консультирование</h3><p>Работа с тревогой, самооценкой, стрессом и жизненными изменениями.</p></div>
+  <div class="card"><h3>Семейная психология</h3><p>Помощь в улучшении отношений, коммуникации и разрешении конфликтов.</p></div>
+  <div class="card"><h3>Детская психология</h3><p>Поддержка детей и родителей в вопросах адаптации и развития.</p></div>
+  <div class="card"><h3>Тренинги и развитие</h3><p>Занятия по эмоциональному интеллекту, уверенности и навыкам общения.</p></div>
+</div>
+
+<section id="specialists">
+<h2>Наши специалисты</h2>
+<div class="cards">
+  <div class="card">
+    <div class="avatar">👩‍⚕️</div>
+    <h3>Анна Смирнова</h3>
+    <p><b>Психолог-консультант</b></p>
+    <p>Специализация: тревожность, стресс, самооценка, личностное развитие.</p>
+  </div>
+  <div class="card">
+    <div class="avatar">👨‍⚕️</div>
+    <h3>Илья Петров</h3>
+    <p><b>Семейный психолог</b></p>
+    <p>Специализация: семейные отношения, конфликты, эффективное общение.</p>
+  </div>
+  <div class="card">
+    <div class="avatar">👩‍🏫</div>
+    <h3>Мария Волкова</h3>
+    <p><b>Детский психолог</b></p>
+    <p>Специализация: адаптация детей, эмоциональное развитие, работа с родителями.</p>
+  </div>
+</div>
+</section>
+
+<section id="statistics">
+<h2>Динамика роста клиентов</h2>
+<p class="small">Учебный пример статистики за 2021–2025 годы.</p>
+<div class="chart">
+  <div class="bar-wrap"><div class="bar" style="height:80px"></div><div>120</div><div class="bar-label">2021</div></div>
+  <div class="bar-wrap"><div class="bar" style="height:120px"></div><div>180</div><div class="bar-label">2022</div></div>
+  <div class="bar-wrap"><div class="bar" style="height:155px"></div><div>240</div><div class="bar-label">2023</div></div>
+  <div class="bar-wrap"><div class="bar" style="height:205px"></div><div>320</div><div class="bar-label">2024</div></div>
+  <div class="bar-wrap"><div class="bar" style="height:245px"></div><div>410</div><div class="bar-label">2025</div></div>
+</div>
+</section>
+
+<section id="contacts">
+<h2>Контакты и схема проезда</h2>
+<div class="contact">
+  <p><b>Адрес:</b> г. Нюрнберг, учебный адрес: улица Гармонии, 10</p>
+  <p><b>Телефон:</b> +49 000 000 00 00</p>
+  <p><b>E-mail:</b> harmony@example.com</p>
+  <p><b>Часы работы:</b> Пн–Пт, 10:00–19:00</p>
+  <h3>Схема проезда</h3>
+  <p>🚉 Центральный вокзал → 🚌 автобус № 10 → 🚶 остановка «Гармония» → 🌿 Центр психологической помощи.</p>
+  <p class="small">Адрес и контакты являются учебными и приведены только для практической работы.</p>
+</div>
+</section>
+</main>
+
+<footer>© 2026 Центр психологической помощи «Гармония» — учебный проект</footer>
+</body>
+</html>
